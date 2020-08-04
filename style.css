@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(35, 43, 77);
+}
+
+#section1{
+    margin-top: 50px;
+    color: white;
+}
+
+.col-sm-5 div{
+    padding: 10px;  
+}
+
+.col-md-6 div{
+    padding: 10px;
+}
+
+#profilePic{
+    border-radius: 100%;
+    border-style: outset ;
+    border-width: 8px;
+    width: 300px;
+    height: 300px;
+}
+
+#result .row{
+    margin-block-start: 50px;
+}
+
+#result .row .jumbotron{
+    margin: 22px;
+    padding: 5px 0;
+    width: 130px;
+    height: 80px;
+    color: white;
+    word-wrap: normal;
+    font-size: 25px;
+    background-color: rgba(62, 73, 124, 0.5);
+}
+
+#result .row .jumbotron span{
+    font-size: 12px;
+}
+
+#section2{
+    height: auto;
+    margin-top: 180px;
+    background-color: rgb(238, 238, 238); 
+    color: black;
+}
+
+#section2 .container .row{
+    position: relative;
+    bottom: 80px;
+}
+
+#section2 .container .row .col-sm-12 .chart{
+    background-color:white; 
+    height: 430px;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+    width: 350px;
+}
+
+#section2 .container .row .col-sm-12 div{
+    margin-top: 30px;
+}
+
+#section2 .container .row .col-sm-12 .chart div{
+    border-bottom: darkgray;
+    border-bottom-width: 3px;
+    border-bottom-style: dashed;
+    margin: 0 4px;
+}
+
+#section2 .container .col-sm-12 .chart #border1{
+    width: 210px;
+    
+} 
+
+#section2 .container .col-sm-12 .chart #border2{
+    width: 200px;
+    
+}
+
+#section2 .container .col-sm-12 .chart #border3{
+    width: 280px;
+}
+
+#section2 .container .col-sm-12 .chart canvas{
+    position: relative;
+    top: 25px;
+}
+
+#section2 .col-sm-11 #topRepo{
+    position: relative;
+    bottom: 100px;
+    
+}
+#section2 .col-sm-11 #topRepo #repoResults{
+    color: black;
+}
+
+#section2 .col-sm-11 #topRepo #border4{
+    border-bottom: darkgray;
+    border-bottom-width: 3px;
+    border-bottom-style: dashed;
+    width: 240px;
+}
+
+#section2 #section2-2{
+    position: relative;
+    bottom: 70px;
+    left: 60px;
+    display: inline-block;
+}
+
+#section3 .col-sm-12 #footer{
+    height:65px;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#section3 .col-sm-12 #footer a{
+    text-decoration: none;
+    color: yellow;
+}
+
+#section3 .col-sm-12 #footer a:hover{
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+@media(max-width:768px){
+
+    #section1{
+        margin-top: 90px;
+    }
+
+    #profilePic{
+        width: 250px;
+        height: 250px;
+    }
+
+    #section2{
+        height: auto;
+        margin-top: 180px;
+    }
+
+    #result .row .jumbotron{
+        margin: 5px;
+        padding:5px 0;
+    }
+
+    #section2 .container .row{
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #section2 .container{
+        position: relative;
+        bottom: 100px;
+    }
+
+    #section2 #section2-2{
+        position: relative;
+        bottom: 80px;
+        left: 0;
+    }
+
+    #section3 .col-sm-12 #footer{
+        height:70px;
+        padding: 8px;
+        position: relative;
+        top: 3px;
+    }
+    
+}
+
