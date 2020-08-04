@@ -154,7 +154,7 @@ body{
     }
 
     #result .row .jumbotron{
-        margin: 5px;
+        margin: 2px;
         padding:5px 0;
     }
 
@@ -172,6 +172,11 @@ body{
         position: relative;
         bottom: 80px;
         left: 0;
+    }
+    
+    #section2 .container .row .col-sm-12 .chart{
+        margin: 2px;
+        width: 320;
     }
 
     #section3 .col-sm-12 #footer{
