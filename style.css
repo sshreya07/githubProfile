@@ -156,6 +156,7 @@ body{
     #result .row .jumbotron{
         margin: 2px;
         padding:5px 0;
+        width: 80px;
     }
 
     #section2 .container .row{
