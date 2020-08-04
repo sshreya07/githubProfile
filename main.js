@@ -35,7 +35,7 @@ function searchUser(e){
 
     console.log(user);
 
-    fetch(`https://api.github.com/users/${user}?client_id=${client_id}&client_secret=${client_secret}`)
+    fetch(`https://api.github.com/users/${user}`)
         .then(Response => {
             console.log(Response.status);
             if(!Response.ok){
